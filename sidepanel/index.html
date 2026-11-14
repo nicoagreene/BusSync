@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>BusSync</title>
+  <link rel="stylesheet" href="sidepanel.css">
+</head>
+<body>
+  <header class="top">
+    <h1>BusSync</h1>
+    <label class="home">
+      <span>Home campus</span>
+      <select id="home">
+        <option value="">Select…</option>
+        <option value="HC">Hav</option>
+        <option value="SC">Swat</option>
+        <option value="BMC">BMC</option>
+      </select>
+    </label>
+  </header>
+  <label class="semester" id="semester-wrap" hidden>
+    <span>Semester</span>
+    <select id="semester"></select>
+  </label>
+
+  <ul class="legend" aria-label="Legend">
+    <li><span class="dot green"></span>Over 7 min to spare</li>
+    <li><span class="dot yellow"></span>3–7 min, possible</li>
+    <li><span class="dot red"></span>Under 3 min or conflict</li>
+  </ul>
+
+  <section>
+    <h2>Cart <span id="cart-count" class="count"></span></h2>
+    <ul id="cart" class="cart"></ul>
+  </section>
+
+  <section>
+    <h2>Week</h2>
+    <div id="week" class="week"></div>
+  </section>
+
+  <script src="../lib/parse.js"></script>
+  <script src="../lib/planner.js"></script>
+  <script src="sidepanel.js"></script>
+</body>
+</html>

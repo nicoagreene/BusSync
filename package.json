@@ -1,0 +1,9 @@
+{
+  "name": "bussync",
+  "private": true,
+  "description": "Chrome extension: Tri-Co course cart with Blue Bus / Tri-Co Van feasibility checks",
+  "scripts": {
+    "test": "node --test",
+    "schedules": "python3 -I scripts/parse_schedules.py"
+  }
+}

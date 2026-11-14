@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "BusSync",
+  "version": "0.1.0",
+  "description": "Build a Tri-Co course cart and check that the Blue Bus and Tri-Co Van can get you between classes.",
+  "permissions": ["storage", "sidePanel"],
+  "background": { "service_worker": "background.js" },
+  "action": { "default_title": "Open BusSync" },
+  "side_panel": { "default_path": "sidepanel/index.html" },
+  "content_scripts": [
+    {
+      "matches": ["https://www.swarthmore.edu/tricollege-course-guide/*"],
+      "js": ["lib/parse.js", "content/content.js"],
+      "css": ["content/content.css"]
+    }
+  ]
+}

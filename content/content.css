@@ -1,0 +1,18 @@
+.bussync-add {
+  display: inline-block;
+  margin-top: 6px;
+  padding: 3px 10px;
+  font: 600 13px/1.4 system-ui, -apple-system, sans-serif;
+  color: #1d4ed8;
+  background: #fff;
+  border: 1px solid #1d4ed8;
+  border-radius: 999px;
+  cursor: pointer;
+}
+.bussync-add:hover {
+  background: #eff6ff;
+}
+.bussync-add.is-added {
+  color: #fff;
+  background: #1d4ed8;
+}

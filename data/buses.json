@@ -1,0 +1,4244 @@
+{
+ "trips": [
+  {
+   "route": "Blue Bus",
+   "from": "BMC",
+   "to": "HC",
+   "depart": 440,
+   "arrive": 450,
+   "days": [
+    "T"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "BMC",
+   "to": "HC",
+   "depart": 440,
+   "arrive": 450,
+   "days": [
+    "Th"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "BMC",
+   "to": "HC",
+   "depart": 455,
+   "arrive": 465,
+   "days": [
+    "M"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "BMC",
+   "to": "HC",
+   "depart": 455,
+   "arrive": 465,
+   "days": [
+    "W"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "BMC",
+   "to": "HC",
+   "depart": 455,
+   "arrive": 465,
+   "days": [
+    "F"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "BMC",
+   "to": "HC",
+   "depart": 475,
+   "arrive": 485,
+   "days": [
+    "T"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "BMC",
+   "to": "HC",
+   "depart": 475,
+   "arrive": 485,
+   "days": [
+    "Th"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "BMC",
+   "to": "HC",
+   "depart": 495,
+   "arrive": 505,
+   "days": [
+    "M"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "BMC",
+   "to": "HC",
+   "depart": 495,
+   "arrive": 505,
+   "days": [
+    "T"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "BMC",
+   "to": "HC",
+   "depart": 495,
+   "arrive": 505,
+   "days": [
+    "W"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "BMC",
+   "to": "HC",
+   "depart": 495,
+   "arrive": 505,
+   "days": [
+    "Th"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "BMC",
+   "to": "HC",
+   "depart": 495,
+   "arrive": 505,
+   "days": [
+    "F"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "BMC",
+   "to": "HC",
+   "depart": 525,
+   "arrive": 535,
+   "days": [
+    "M"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "BMC",
+   "to": "HC",
+   "depart": 525,
+   "arrive": 535,
+   "days": [
+    "W"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "BMC",
+   "to": "HC",
+   "depart": 525,
+   "arrive": 535,
+   "days": [
+    "F"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "BMC",
+   "to": "HC",
+   "depart": 530,
+   "arrive": 540,
+   "days": [
+    "T"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "BMC",
+   "to": "HC",
+   "depart": 530,
+   "arrive": 540,
+   "days": [
+    "Th"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "BMC",
+   "to": "HC",
+   "depart": 550,
+   "arrive": 560,
+   "days": [
+    "M"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "BMC",
+   "to": "HC",
+   "depart": 550,
+   "arrive": 560,
+   "days": [
+    "T"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "BMC",
+   "to": "HC",
+   "depart": 550,
+   "arrive": 560,
+   "days": [
+    "W"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "BMC",
+   "to": "HC",
+   "depart": 550,
+   "arrive": 560,
+   "days": [
+    "Th"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "BMC",
+   "to": "HC",
+   "depart": 550,
+   "arrive": 560,
+   "days": [
+    "F"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "BMC",
+   "to": "HC",
+   "depart": 565,
+   "arrive": 580,
+   "days": [
+    "W"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "BMC",
+   "to": "HC",
+   "depart": 570,
+   "arrive": 580,
+   "days": [
+    "M"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "BMC",
+   "to": "HC",
+   "depart": 570,
+   "arrive": 590,
+   "days": [
+    "T"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "BMC",
+   "to": "HC",
+   "depart": 570,
+   "arrive": 585,
+   "days": [
+    "W"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "BMC",
+   "to": "HC",
+   "depart": 570,
+   "arrive": 590,
+   "days": [
+    "Th"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "BMC",
+   "to": "HC",
+   "depart": 570,
+   "arrive": 580,
+   "days": [
+    "F"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "BMC",
+   "to": "HC",
+   "depart": 580,
+   "arrive": 600,
+   "days": [
+    "T"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "BMC",
+   "to": "HC",
+   "depart": 580,
+   "arrive": 600,
+   "days": [
+    "Th"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "BMC",
+   "to": "HC",
+   "depart": 590,
+   "arrive": 600,
+   "days": [
+    "T"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "BMC",
+   "to": "HC",
+   "depart": 590,
+   "arrive": 600,
+   "days": [
+    "Th"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "BMC",
+   "to": "HC",
+   "depart": 605,
+   "arrive": 615,
+   "days": [
+    "M"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "BMC",
+   "to": "HC",
+   "depart": 605,
+   "arrive": 615,
+   "days": [
+    "W"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "BMC",
+   "to": "HC",
+   "depart": 605,
+   "arrive": 615,
+   "days": [
+    "F"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "BMC",
+   "to": "HC",
+   "depart": 615,
+   "arrive": 625,
+   "days": [
+    "M"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "BMC",
+   "to": "HC",
+   "depart": 615,
+   "arrive": 625,
+   "days": [
+    "W"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "BMC",
+   "to": "HC",
+   "depart": 615,
+   "arrive": 625,
+   "days": [
+    "F"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "BMC",
+   "to": "HC",
+   "depart": 635,
+   "arrive": 645,
+   "days": [
+    "M"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "BMC",
+   "to": "HC",
+   "depart": 635,
+   "arrive": 645,
+   "days": [
+    "T"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "BMC",
+   "to": "HC",
+   "depart": 635,
+   "arrive": 645,
+   "days": [
+    "W"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "BMC",
+   "to": "HC",
+   "depart": 635,
+   "arrive": 645,
+   "days": [
+    "Th"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "BMC",
+   "to": "HC",
+   "depart": 635,
+   "arrive": 645,
+   "days": [
+    "F"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "BMC",
+   "to": "HC",
+   "depart": 655,
+   "arrive": 665,
+   "days": [
+    "M"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "BMC",
+   "to": "HC",
+   "depart": 655,
+   "arrive": 665,
+   "days": [
+    "T"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "BMC",
+   "to": "HC",
+   "depart": 655,
+   "arrive": 665,
+   "days": [
+    "W"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "BMC",
+   "to": "HC",
+   "depart": 655,
+   "arrive": 665,
+   "days": [
+    "Th"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "BMC",
+   "to": "HC",
+   "depart": 655,
+   "arrive": 665,
+   "days": [
+    "F"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "BMC",
+   "to": "HC",
+   "depart": 665,
+   "arrive": 675,
+   "days": [
+    "F"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "BMC",
+   "to": "HC",
+   "depart": 670,
+   "arrive": 680,
+   "days": [
+    "M"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "BMC",
+   "to": "HC",
+   "depart": 670,
+   "arrive": 680,
+   "days": [
+    "W"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "BMC",
+   "to": "HC",
+   "depart": 680,
+   "arrive": 690,
+   "days": [
+    "T"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "BMC",
+   "to": "HC",
+   "depart": 680,
+   "arrive": 690,
+   "days": [
+    "Th"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "BMC",
+   "to": "HC",
+   "depart": 695,
+   "arrive": 705,
+   "days": [
+    "M"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "BMC",
+   "to": "HC",
+   "depart": 695,
+   "arrive": 705,
+   "days": [
+    "T"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "BMC",
+   "to": "HC",
+   "depart": 695,
+   "arrive": 705,
+   "days": [
+    "W"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "BMC",
+   "to": "HC",
+   "depart": 695,
+   "arrive": 705,
+   "days": [
+    "Th"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "BMC",
+   "to": "HC",
+   "depart": 695,
+   "arrive": 705,
+   "days": [
+    "F"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "BMC",
+   "to": "HC",
+   "depart": 730,
+   "arrive": 740,
+   "days": [
+    "M"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "BMC",
+   "to": "HC",
+   "depart": 730,
+   "arrive": 740,
+   "days": [
+    "W"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "BMC",
+   "to": "HC",
+   "depart": 730,
+   "arrive": 740,
+   "days": [
+    "F"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "BMC",
+   "to": "HC",
+   "depart": 740,
+   "arrive": 750,
+   "days": [
+    "T"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "BMC",
+   "to": "HC",
+   "depart": 740,
+   "arrive": 750,
+   "days": [
+    "Th"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "BMC",
+   "to": "HC",
+   "depart": 750,
+   "arrive": 760,
+   "days": [
+    "M"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "BMC",
+   "to": "HC",
+   "depart": 755,
+   "arrive": 765,
+   "days": [
+    "W"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "BMC",
+   "to": "HC",
+   "depart": 760,
+   "arrive": 770,
+   "days": [
+    "T"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "BMC",
+   "to": "HC",
+   "depart": 760,
+   "arrive": 770,
+   "days": [
+    "Th"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "BMC",
+   "to": "HC",
+   "depart": 770,
+   "arrive": 780,
+   "days": [
+    "T"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "BMC",
+   "to": "HC",
+   "depart": 770,
+   "arrive": 780,
+   "days": [
+    "Th"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "BMC",
+   "to": "HC",
+   "depart": 790,
+   "arrive": 800,
+   "days": [
+    "M"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "BMC",
+   "to": "HC",
+   "depart": 790,
+   "arrive": 800,
+   "days": [
+    "T"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "BMC",
+   "to": "HC",
+   "depart": 790,
+   "arrive": 800,
+   "days": [
+    "W"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "BMC",
+   "to": "HC",
+   "depart": 790,
+   "arrive": 800,
+   "days": [
+    "Th"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "BMC",
+   "to": "HC",
+   "depart": 790,
+   "arrive": 800,
+   "days": [
+    "F"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "BMC",
+   "to": "HC",
+   "depart": 810,
+   "arrive": 820,
+   "days": [
+    "M"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "BMC",
+   "to": "HC",
+   "depart": 810,
+   "arrive": 820,
+   "days": [
+    "T"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "BMC",
+   "to": "HC",
+   "depart": 810,
+   "arrive": 820,
+   "days": [
+    "W"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "BMC",
+   "to": "HC",
+   "depart": 810,
+   "arrive": 820,
+   "days": [
+    "Th"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "BMC",
+   "to": "HC",
+   "depart": 835,
+   "arrive": 845,
+   "days": [
+    "T"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "BMC",
+   "to": "HC",
+   "depart": 835,
+   "arrive": 845,
+   "days": [
+    "Th"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "BMC",
+   "to": "HC",
+   "depart": 840,
+   "arrive": 850,
+   "days": [
+    "M"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "BMC",
+   "to": "HC",
+   "depart": 840,
+   "arrive": 850,
+   "days": [
+    "W"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "BMC",
+   "to": "HC",
+   "depart": 845,
+   "arrive": 855,
+   "days": [
+    "M"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "BMC",
+   "to": "HC",
+   "depart": 845,
+   "arrive": 855,
+   "days": [
+    "W"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "BMC",
+   "to": "HC",
+   "depart": 845,
+   "arrive": 855,
+   "days": [
+    "F"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "BMC",
+   "to": "HC",
+   "depart": 850,
+   "arrive": 860,
+   "days": [
+    "T"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "BMC",
+   "to": "HC",
+   "depart": 850,
+   "arrive": 860,
+   "days": [
+    "Th"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "BMC",
+   "to": "HC",
+   "depart": 860,
+   "arrive": 870,
+   "days": [
+    "Th"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "BMC",
+   "to": "HC",
+   "depart": 875,
+   "arrive": 885,
+   "days": [
+    "T"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "BMC",
+   "to": "HC",
+   "depart": 875,
+   "arrive": 885,
+   "days": [
+    "F"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "BMC",
+   "to": "HC",
+   "depart": 885,
+   "arrive": 895,
+   "days": [
+    "M"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "BMC",
+   "to": "HC",
+   "depart": 885,
+   "arrive": 895,
+   "days": [
+    "W"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "BMC",
+   "to": "HC",
+   "depart": 910,
+   "arrive": 920,
+   "days": [
+    "M"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "BMC",
+   "to": "HC",
+   "depart": 910,
+   "arrive": 920,
+   "days": [
+    "T"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "BMC",
+   "to": "HC",
+   "depart": 910,
+   "arrive": 920,
+   "days": [
+    "W"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "BMC",
+   "to": "HC",
+   "depart": 910,
+   "arrive": 920,
+   "days": [
+    "Th"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "BMC",
+   "to": "HC",
+   "depart": 910,
+   "arrive": 920,
+   "days": [
+    "F"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "BMC",
+   "to": "HC",
+   "depart": 940,
+   "arrive": 950,
+   "days": [
+    "T"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "BMC",
+   "to": "HC",
+   "depart": 940,
+   "arrive": 950,
+   "days": [
+    "Th"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "BMC",
+   "to": "HC",
+   "depart": 945,
+   "arrive": 955,
+   "days": [
+    "F"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "BMC",
+   "to": "HC",
+   "depart": 960,
+   "arrive": 970,
+   "days": [
+    "M"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "BMC",
+   "to": "HC",
+   "depart": 960,
+   "arrive": 970,
+   "days": [
+    "W"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "BMC",
+   "to": "HC",
+   "depart": 965,
+   "arrive": 975,
+   "days": [
+    "M"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "BMC",
+   "to": "HC",
+   "depart": 965,
+   "arrive": 975,
+   "days": [
+    "T"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "BMC",
+   "to": "HC",
+   "depart": 965,
+   "arrive": 975,
+   "days": [
+    "W"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "BMC",
+   "to": "HC",
+   "depart": 965,
+   "arrive": 975,
+   "days": [
+    "Th"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "BMC",
+   "to": "HC",
+   "depart": 980,
+   "arrive": 990,
+   "days": [
+    "M"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "BMC",
+   "to": "HC",
+   "depart": 980,
+   "arrive": 990,
+   "days": [
+    "T"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "BMC",
+   "to": "HC",
+   "depart": 980,
+   "arrive": 990,
+   "days": [
+    "W"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "BMC",
+   "to": "HC",
+   "depart": 980,
+   "arrive": 990,
+   "days": [
+    "Th"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "BMC",
+   "to": "HC",
+   "depart": 980,
+   "arrive": 990,
+   "days": [
+    "F"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "BMC",
+   "to": "HC",
+   "depart": 1030,
+   "arrive": 1040,
+   "days": [
+    "M"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "BMC",
+   "to": "HC",
+   "depart": 1030,
+   "arrive": 1040,
+   "days": [
+    "T"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "BMC",
+   "to": "HC",
+   "depart": 1030,
+   "arrive": 1040,
+   "days": [
+    "W"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "BMC",
+   "to": "HC",
+   "depart": 1030,
+   "arrive": 1040,
+   "days": [
+    "Th"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "BMC",
+   "to": "HC",
+   "depart": 1030,
+   "arrive": 1040,
+   "days": [
+    "F"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "BMC",
+   "to": "HC",
+   "depart": 1060,
+   "arrive": 1070,
+   "days": [
+    "Th"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "BMC",
+   "to": "HC",
+   "depart": 1065,
+   "arrive": 1075,
+   "days": [
+    "T"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "BMC",
+   "to": "HC",
+   "depart": 1070,
+   "arrive": 1080,
+   "days": [
+    "M"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "BMC",
+   "to": "HC",
+   "depart": 1070,
+   "arrive": 1080,
+   "days": [
+    "W"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "BMC",
+   "to": "HC",
+   "depart": 1070,
+   "arrive": 1080,
+   "days": [
+    "F"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "BMC",
+   "to": "HC",
+   "depart": 1090,
+   "arrive": 1100,
+   "days": [
+    "Th"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "BMC",
+   "to": "HC",
+   "depart": 1100,
+   "arrive": 1110,
+   "days": [
+    "M"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "BMC",
+   "to": "HC",
+   "depart": 1100,
+   "arrive": 1110,
+   "days": [
+    "T"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "BMC",
+   "to": "HC",
+   "depart": 1100,
+   "arrive": 1110,
+   "days": [
+    "F"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "BMC",
+   "to": "HC",
+   "depart": 1110,
+   "arrive": 1120,
+   "days": [
+    "W"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "BMC",
+   "to": "HC",
+   "depart": 1120,
+   "arrive": 1130,
+   "days": [
+    "Th"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "BMC",
+   "to": "HC",
+   "depart": 1140,
+   "arrive": 1150,
+   "days": [
+    "F"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "BMC",
+   "to": "HC",
+   "depart": 1150,
+   "arrive": 1160,
+   "days": [
+    "T"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "BMC",
+   "to": "HC",
+   "depart": 1155,
+   "arrive": 1165,
+   "days": [
+    "M"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "BMC",
+   "to": "HC",
+   "depart": 1155,
+   "arrive": 1165,
+   "days": [
+    "W"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "BMC",
+   "to": "HC",
+   "depart": 1160,
+   "arrive": 1170,
+   "days": [
+    "Th"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "BMC",
+   "to": "HC",
+   "depart": 1200,
+   "arrive": 1210,
+   "days": [
+    "M"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "BMC",
+   "to": "HC",
+   "depart": 1200,
+   "arrive": 1210,
+   "days": [
+    "T"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "BMC",
+   "to": "HC",
+   "depart": 1200,
+   "arrive": 1210,
+   "days": [
+    "W"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "BMC",
+   "to": "HC",
+   "depart": 1200,
+   "arrive": 1210,
+   "days": [
+    "Th"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "BMC",
+   "to": "HC",
+   "depart": 1200,
+   "arrive": 1210,
+   "days": [
+    "F"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "BMC",
+   "to": "HC",
+   "depart": 1235,
+   "arrive": 1245,
+   "days": [
+    "M"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "BMC",
+   "to": "HC",
+   "depart": 1235,
+   "arrive": 1245,
+   "days": [
+    "T"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "BMC",
+   "to": "HC",
+   "depart": 1235,
+   "arrive": 1245,
+   "days": [
+    "W"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "BMC",
+   "to": "HC",
+   "depart": 1235,
+   "arrive": 1245,
+   "days": [
+    "F"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "BMC",
+   "to": "HC",
+   "depart": 1240,
+   "arrive": 1250,
+   "days": [
+    "Th"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "BMC",
+   "to": "HC",
+   "depart": 1265,
+   "arrive": 1275,
+   "days": [
+    "M"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "BMC",
+   "to": "HC",
+   "depart": 1265,
+   "arrive": 1275,
+   "days": [
+    "T"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "BMC",
+   "to": "HC",
+   "depart": 1265,
+   "arrive": 1275,
+   "days": [
+    "F"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "BMC",
+   "to": "HC",
+   "depart": 1270,
+   "arrive": 1280,
+   "days": [
+    "W"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "BMC",
+   "to": "HC",
+   "depart": 1270,
+   "arrive": 1280,
+   "days": [
+    "Th"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "BMC",
+   "to": "HC",
+   "depart": 1295,
+   "arrive": 1305,
+   "days": [
+    "M"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "BMC",
+   "to": "HC",
+   "depart": 1295,
+   "arrive": 1305,
+   "days": [
+    "T"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "BMC",
+   "to": "HC",
+   "depart": 1295,
+   "arrive": 1305,
+   "days": [
+    "F"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "BMC",
+   "to": "HC",
+   "depart": 1300,
+   "arrive": 1310,
+   "days": [
+    "W"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "BMC",
+   "to": "HC",
+   "depart": 1325,
+   "arrive": 1335,
+   "days": [
+    "F"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "BMC",
+   "to": "HC",
+   "depart": 1335,
+   "arrive": 1345,
+   "days": [
+    "M"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "BMC",
+   "to": "HC",
+   "depart": 1335,
+   "arrive": 1345,
+   "days": [
+    "T"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "BMC",
+   "to": "HC",
+   "depart": 1335,
+   "arrive": 1345,
+   "days": [
+    "W"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "BMC",
+   "to": "HC",
+   "depart": 1335,
+   "arrive": 1345,
+   "days": [
+    "Th"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "BMC",
+   "to": "HC",
+   "depart": 1375,
+   "arrive": 1385,
+   "days": [
+    "M"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "BMC",
+   "to": "HC",
+   "depart": 1375,
+   "arrive": 1385,
+   "days": [
+    "T"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "BMC",
+   "to": "HC",
+   "depart": 1375,
+   "arrive": 1385,
+   "days": [
+    "W"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "BMC",
+   "to": "HC",
+   "depart": 1375,
+   "arrive": 1385,
+   "days": [
+    "Th"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "BMC",
+   "to": "HC",
+   "depart": 1375,
+   "arrive": 1385,
+   "days": [
+    "F"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "BMC",
+   "to": "HC",
+   "depart": 1405,
+   "arrive": 1415,
+   "days": [
+    "F"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "BMC",
+   "to": "HC",
+   "depart": 1425,
+   "arrive": 1435,
+   "days": [
+    "M"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "BMC",
+   "to": "HC",
+   "depart": 1425,
+   "arrive": 1435,
+   "days": [
+    "T"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "BMC",
+   "to": "HC",
+   "depart": 1425,
+   "arrive": 1435,
+   "days": [
+    "W"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "BMC",
+   "to": "HC",
+   "depart": 1425,
+   "arrive": 1435,
+   "days": [
+    "Th"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "BMC",
+   "to": "HC",
+   "depart": 1465,
+   "arrive": 1475,
+   "days": [
+    "F"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "BMC",
+   "to": "HC",
+   "depart": 1470,
+   "arrive": 1480,
+   "days": [
+    "M"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "BMC",
+   "to": "HC",
+   "depart": 1470,
+   "arrive": 1480,
+   "days": [
+    "T"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "BMC",
+   "to": "HC",
+   "depart": 1470,
+   "arrive": 1480,
+   "days": [
+    "W"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "BMC",
+   "to": "HC",
+   "depart": 1470,
+   "arrive": 1480,
+   "days": [
+    "Th"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "BMC",
+   "to": "HC",
+   "depart": 1515,
+   "arrive": 1525,
+   "days": [
+    "F"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "BMC",
+   "to": "HC",
+   "depart": 1560,
+   "arrive": 1570,
+   "days": [
+    "F"
+   ]
+  },
+  {
+   "route": "Tri-Co Van",
+   "from": "BMC",
+   "to": "SC",
+   "depart": 390,
+   "arrive": 425,
+   "days": [
+    "M",
+    "W",
+    "F"
+   ]
+  },
+  {
+   "route": "Tri-Co Van",
+   "from": "BMC",
+   "to": "SC",
+   "depart": 390,
+   "arrive": 425,
+   "days": [
+    "T",
+    "Th"
+   ]
+  },
+  {
+   "route": "Tri-Co Van",
+   "from": "BMC",
+   "to": "SC",
+   "depart": 470,
+   "arrive": 505,
+   "days": [
+    "M",
+    "W",
+    "F"
+   ]
+  },
+  {
+   "route": "Tri-Co Van",
+   "from": "BMC",
+   "to": "SC",
+   "depart": 470,
+   "arrive": 505,
+   "days": [
+    "T",
+    "Th"
+   ]
+  },
+  {
+   "route": "Tri-Co Van",
+   "from": "BMC",
+   "to": "SC",
+   "depart": 560,
+   "arrive": 590,
+   "days": [
+    "T",
+    "Th"
+   ]
+  },
+  {
+   "route": "Tri-Co Van",
+   "from": "BMC",
+   "to": "SC",
+   "depart": 570,
+   "arrive": 600,
+   "days": [
+    "M",
+    "W",
+    "F"
+   ]
+  },
+  {
+   "route": "Tri-Co Van",
+   "from": "BMC",
+   "to": "SC",
+   "depart": 620,
+   "arrive": 650,
+   "days": [
+    "T",
+    "Th"
+   ]
+  },
+  {
+   "route": "Tri-Co Van",
+   "from": "BMC",
+   "to": "SC",
+   "depart": 635,
+   "arrive": 665,
+   "days": [
+    "M",
+    "W",
+    "F"
+   ]
+  },
+  {
+   "route": "Tri-Co Van",
+   "from": "BMC",
+   "to": "SC",
+   "depart": 680,
+   "arrive": 710,
+   "days": [
+    "T",
+    "Th"
+   ]
+  },
+  {
+   "route": "Tri-Co Van",
+   "from": "BMC",
+   "to": "SC",
+   "depart": 695,
+   "arrive": 725,
+   "days": [
+    "M",
+    "W",
+    "F"
+   ]
+  },
+  {
+   "route": "Tri-Co Van",
+   "from": "BMC",
+   "to": "SC",
+   "depart": 740,
+   "arrive": 770,
+   "days": [
+    "T",
+    "Th"
+   ]
+  },
+  {
+   "route": "Tri-Co Van",
+   "from": "BMC",
+   "to": "SC",
+   "depart": 755,
+   "arrive": 785,
+   "days": [
+    "M",
+    "W",
+    "F"
+   ]
+  },
+  {
+   "route": "Tri-Co Van",
+   "from": "BMC",
+   "to": "SC",
+   "depart": 845,
+   "arrive": 875,
+   "days": [
+    "T",
+    "Th"
+   ]
+  },
+  {
+   "route": "Tri-Co Van",
+   "from": "BMC",
+   "to": "SC",
+   "depart": 890,
+   "arrive": 920,
+   "days": [
+    "M",
+    "W",
+    "F"
+   ]
+  },
+  {
+   "route": "Tri-Co Van",
+   "from": "BMC",
+   "to": "SC",
+   "depart": 940,
+   "arrive": 980,
+   "days": [
+    "T",
+    "Th"
+   ]
+  },
+  {
+   "route": "Tri-Co Van",
+   "from": "BMC",
+   "to": "SC",
+   "depart": 980,
+   "arrive": 1010,
+   "days": [
+    "M",
+    "W",
+    "F"
+   ]
+  },
+  {
+   "route": "Tri-Co Van",
+   "from": "BMC",
+   "to": "SC",
+   "depart": 1060,
+   "arrive": 1090,
+   "days": [
+    "T",
+    "Th"
+   ]
+  },
+  {
+   "route": "Tri-Co Van",
+   "from": "BMC",
+   "to": "SC",
+   "depart": 1070,
+   "arrive": 1100,
+   "days": [
+    "M",
+    "W",
+    "F"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "HC",
+   "to": "BMC",
+   "depart": 460,
+   "arrive": 470,
+   "days": [
+    "T"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "HC",
+   "to": "BMC",
+   "depart": 460,
+   "arrive": 470,
+   "days": [
+    "Th"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "HC",
+   "to": "BMC",
+   "depart": 470,
+   "arrive": 480,
+   "days": [
+    "M"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "HC",
+   "to": "BMC",
+   "depart": 470,
+   "arrive": 480,
+   "days": [
+    "W"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "HC",
+   "to": "BMC",
+   "depart": 470,
+   "arrive": 480,
+   "days": [
+    "F"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "HC",
+   "to": "BMC",
+   "depart": 490,
+   "arrive": 500,
+   "days": [
+    "T"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "HC",
+   "to": "BMC",
+   "depart": 490,
+   "arrive": 500,
+   "days": [
+    "Th"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "HC",
+   "to": "BMC",
+   "depart": 515,
+   "arrive": 525,
+   "days": [
+    "T"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "HC",
+   "to": "BMC",
+   "depart": 515,
+   "arrive": 525,
+   "days": [
+    "Th"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "HC",
+   "to": "BMC",
+   "depart": 530,
+   "arrive": 540,
+   "days": [
+    "M"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "HC",
+   "to": "BMC",
+   "depart": 530,
+   "arrive": 540,
+   "days": [
+    "W"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "HC",
+   "to": "BMC",
+   "depart": 530,
+   "arrive": 540,
+   "days": [
+    "F"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "HC",
+   "to": "BMC",
+   "depart": 555,
+   "arrive": 565,
+   "days": [
+    "M"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "HC",
+   "to": "BMC",
+   "depart": 555,
+   "arrive": 565,
+   "days": [
+    "T"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "HC",
+   "to": "BMC",
+   "depart": 555,
+   "arrive": 565,
+   "days": [
+    "W"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "HC",
+   "to": "BMC",
+   "depart": 555,
+   "arrive": 565,
+   "days": [
+    "Th"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "HC",
+   "to": "BMC",
+   "depart": 555,
+   "arrive": 565,
+   "days": [
+    "F"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "HC",
+   "to": "BMC",
+   "depart": 570,
+   "arrive": 585,
+   "days": [
+    "T"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "HC",
+   "to": "BMC",
+   "depart": 570,
+   "arrive": 585,
+   "days": [
+    "Th"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "HC",
+   "to": "BMC",
+   "depart": 580,
+   "arrive": 590,
+   "days": [
+    "M"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "HC",
+   "to": "BMC",
+   "depart": 580,
+   "arrive": 595,
+   "days": [
+    "T"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "HC",
+   "to": "BMC",
+   "depart": 580,
+   "arrive": 590,
+   "days": [
+    "W"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "HC",
+   "to": "BMC",
+   "depart": 580,
+   "arrive": 595,
+   "days": [
+    "Th"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "HC",
+   "to": "BMC",
+   "depart": 580,
+   "arrive": 590,
+   "days": [
+    "F"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "HC",
+   "to": "BMC",
+   "depart": 585,
+   "arrive": 600,
+   "days": [
+    "M"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "HC",
+   "to": "BMC",
+   "depart": 585,
+   "arrive": 600,
+   "days": [
+    "W"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "HC",
+   "to": "BMC",
+   "depart": 585,
+   "arrive": 600,
+   "days": [
+    "F"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "HC",
+   "to": "BMC",
+   "depart": 610,
+   "arrive": 620,
+   "days": [
+    "T"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "HC",
+   "to": "BMC",
+   "depart": 610,
+   "arrive": 620,
+   "days": [
+    "Th"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "HC",
+   "to": "BMC",
+   "depart": 620,
+   "arrive": 630,
+   "days": [
+    "M"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "HC",
+   "to": "BMC",
+   "depart": 620,
+   "arrive": 630,
+   "days": [
+    "T"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "HC",
+   "to": "BMC",
+   "depart": 620,
+   "arrive": 630,
+   "days": [
+    "W"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "HC",
+   "to": "BMC",
+   "depart": 620,
+   "arrive": 630,
+   "days": [
+    "Th"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "HC",
+   "to": "BMC",
+   "depart": 620,
+   "arrive": 630,
+   "days": [
+    "F"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "HC",
+   "to": "BMC",
+   "depart": 630,
+   "arrive": 645,
+   "days": [
+    "M"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "HC",
+   "to": "BMC",
+   "depart": 635,
+   "arrive": 645,
+   "days": [
+    "W"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "HC",
+   "to": "BMC",
+   "depart": 635,
+   "arrive": 645,
+   "days": [
+    "F"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "HC",
+   "to": "BMC",
+   "depart": 650,
+   "arrive": 660,
+   "days": [
+    "M"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "HC",
+   "to": "BMC",
+   "depart": 650,
+   "arrive": 660,
+   "days": [
+    "W"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "HC",
+   "to": "BMC",
+   "depart": 650,
+   "arrive": 660,
+   "days": [
+    "F"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "HC",
+   "to": "BMC",
+   "depart": 665,
+   "arrive": 675,
+   "days": [
+    "T"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "HC",
+   "to": "BMC",
+   "depart": 665,
+   "arrive": 675,
+   "days": [
+    "Th"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "HC",
+   "to": "BMC",
+   "depart": 670,
+   "arrive": 680,
+   "days": [
+    "T"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "HC",
+   "to": "BMC",
+   "depart": 670,
+   "arrive": 680,
+   "days": [
+    "Th"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "HC",
+   "to": "BMC",
+   "depart": 675,
+   "arrive": 685,
+   "days": [
+    "M"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "HC",
+   "to": "BMC",
+   "depart": 675,
+   "arrive": 685,
+   "days": [
+    "W"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "HC",
+   "to": "BMC",
+   "depart": 675,
+   "arrive": 685,
+   "days": [
+    "F"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "HC",
+   "to": "BMC",
+   "depart": 690,
+   "arrive": 710,
+   "days": [
+    "M"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "HC",
+   "to": "BMC",
+   "depart": 690,
+   "arrive": 710,
+   "days": [
+    "W"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "HC",
+   "to": "BMC",
+   "depart": 690,
+   "arrive": 710,
+   "days": [
+    "F"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "HC",
+   "to": "BMC",
+   "depart": 700,
+   "arrive": 710,
+   "days": [
+    "T"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "HC",
+   "to": "BMC",
+   "depart": 700,
+   "arrive": 710,
+   "days": [
+    "Th"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "HC",
+   "to": "BMC",
+   "depart": 705,
+   "arrive": 720,
+   "days": [
+    "W"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "HC",
+   "to": "BMC",
+   "depart": 710,
+   "arrive": 720,
+   "days": [
+    "M"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "HC",
+   "to": "BMC",
+   "depart": 710,
+   "arrive": 725,
+   "days": [
+    "W"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "HC",
+   "to": "BMC",
+   "depart": 710,
+   "arrive": 720,
+   "days": [
+    "F"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "HC",
+   "to": "BMC",
+   "depart": 730,
+   "arrive": 740,
+   "days": [
+    "T"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "HC",
+   "to": "BMC",
+   "depart": 730,
+   "arrive": 740,
+   "days": [
+    "Th"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "HC",
+   "to": "BMC",
+   "depart": 755,
+   "arrive": 765,
+   "days": [
+    "T"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "HC",
+   "to": "BMC",
+   "depart": 755,
+   "arrive": 765,
+   "days": [
+    "Th"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "HC",
+   "to": "BMC",
+   "depart": 760,
+   "arrive": 770,
+   "days": [
+    "M"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "HC",
+   "to": "BMC",
+   "depart": 760,
+   "arrive": 770,
+   "days": [
+    "W"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "HC",
+   "to": "BMC",
+   "depart": 760,
+   "arrive": 770,
+   "days": [
+    "F"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "HC",
+   "to": "BMC",
+   "depart": 775,
+   "arrive": 785,
+   "days": [
+    "M"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "HC",
+   "to": "BMC",
+   "depart": 775,
+   "arrive": 785,
+   "days": [
+    "W"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "HC",
+   "to": "BMC",
+   "depart": 780,
+   "arrive": 790,
+   "days": [
+    "M"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "HC",
+   "to": "BMC",
+   "depart": 780,
+   "arrive": 790,
+   "days": [
+    "T"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "HC",
+   "to": "BMC",
+   "depart": 780,
+   "arrive": 790,
+   "days": [
+    "W"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "HC",
+   "to": "BMC",
+   "depart": 780,
+   "arrive": 790,
+   "days": [
+    "Th"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "HC",
+   "to": "BMC",
+   "depart": 800,
+   "arrive": 810,
+   "days": [
+    "T"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "HC",
+   "to": "BMC",
+   "depart": 800,
+   "arrive": 810,
+   "days": [
+    "Th"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "HC",
+   "to": "BMC",
+   "depart": 825,
+   "arrive": 835,
+   "days": [
+    "M"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "HC",
+   "to": "BMC",
+   "depart": 825,
+   "arrive": 835,
+   "days": [
+    "T"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "HC",
+   "to": "BMC",
+   "depart": 825,
+   "arrive": 835,
+   "days": [
+    "W"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "HC",
+   "to": "BMC",
+   "depart": 825,
+   "arrive": 835,
+   "days": [
+    "Th"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "HC",
+   "to": "BMC",
+   "depart": 825,
+   "arrive": 835,
+   "days": [
+    "F"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "HC",
+   "to": "BMC",
+   "depart": 830,
+   "arrive": 840,
+   "days": [
+    "M"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "HC",
+   "to": "BMC",
+   "depart": 830,
+   "arrive": 840,
+   "days": [
+    "W"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "HC",
+   "to": "BMC",
+   "depart": 850,
+   "arrive": 860,
+   "days": [
+    "T"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "HC",
+   "to": "BMC",
+   "depart": 850,
+   "arrive": 860,
+   "days": [
+    "Th"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "HC",
+   "to": "BMC",
+   "depart": 860,
+   "arrive": 870,
+   "days": [
+    "M"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "HC",
+   "to": "BMC",
+   "depart": 860,
+   "arrive": 870,
+   "days": [
+    "W"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "HC",
+   "to": "BMC",
+   "depart": 860,
+   "arrive": 870,
+   "days": [
+    "F"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "HC",
+   "to": "BMC",
+   "depart": 870,
+   "arrive": 880,
+   "days": [
+    "T"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "HC",
+   "to": "BMC",
+   "depart": 870,
+   "arrive": 880,
+   "days": [
+    "Th"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "HC",
+   "to": "BMC",
+   "depart": 885,
+   "arrive": 895,
+   "days": [
+    "M"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "HC",
+   "to": "BMC",
+   "depart": 885,
+   "arrive": 895,
+   "days": [
+    "W"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "HC",
+   "to": "BMC",
+   "depart": 890,
+   "arrive": 900,
+   "days": [
+    "F"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "HC",
+   "to": "BMC",
+   "depart": 910,
+   "arrive": 920,
+   "days": [
+    "T"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "HC",
+   "to": "BMC",
+   "depart": 910,
+   "arrive": 920,
+   "days": [
+    "Th"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "HC",
+   "to": "BMC",
+   "depart": 920,
+   "arrive": 930,
+   "days": [
+    "M"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "HC",
+   "to": "BMC",
+   "depart": 920,
+   "arrive": 930,
+   "days": [
+    "W"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "HC",
+   "to": "BMC",
+   "depart": 930,
+   "arrive": 940,
+   "days": [
+    "F"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "HC",
+   "to": "BMC",
+   "depart": 950,
+   "arrive": 960,
+   "days": [
+    "M"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "HC",
+   "to": "BMC",
+   "depart": 950,
+   "arrive": 960,
+   "days": [
+    "T"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "HC",
+   "to": "BMC",
+   "depart": 950,
+   "arrive": 960,
+   "days": [
+    "W"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "HC",
+   "to": "BMC",
+   "depart": 950,
+   "arrive": 960,
+   "days": [
+    "Th"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "HC",
+   "to": "BMC",
+   "depart": 965,
+   "arrive": 975,
+   "days": [
+    "T"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "HC",
+   "to": "BMC",
+   "depart": 965,
+   "arrive": 975,
+   "days": [
+    "Th"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "HC",
+   "to": "BMC",
+   "depart": 965,
+   "arrive": 975,
+   "days": [
+    "F"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "HC",
+   "to": "BMC",
+   "depart": 970,
+   "arrive": 980,
+   "days": [
+    "M"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "HC",
+   "to": "BMC",
+   "depart": 970,
+   "arrive": 980,
+   "days": [
+    "W"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "HC",
+   "to": "BMC",
+   "depart": 980,
+   "arrive": 990,
+   "days": [
+    "M"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "HC",
+   "to": "BMC",
+   "depart": 980,
+   "arrive": 990,
+   "days": [
+    "T"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "HC",
+   "to": "BMC",
+   "depart": 980,
+   "arrive": 990,
+   "days": [
+    "W"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "HC",
+   "to": "BMC",
+   "depart": 980,
+   "arrive": 990,
+   "days": [
+    "Th"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "HC",
+   "to": "BMC",
+   "depart": 995,
+   "arrive": 1005,
+   "days": [
+    "M"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "HC",
+   "to": "BMC",
+   "depart": 995,
+   "arrive": 1005,
+   "days": [
+    "W"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "HC",
+   "to": "BMC",
+   "depart": 995,
+   "arrive": 1005,
+   "days": [
+    "F"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "HC",
+   "to": "BMC",
+   "depart": 1005,
+   "arrive": 1015,
+   "days": [
+    "T"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "HC",
+   "to": "BMC",
+   "depart": 1005,
+   "arrive": 1015,
+   "days": [
+    "Th"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "HC",
+   "to": "BMC",
+   "depart": 1045,
+   "arrive": 1055,
+   "days": [
+    "M"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "HC",
+   "to": "BMC",
+   "depart": 1045,
+   "arrive": 1055,
+   "days": [
+    "Th"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "HC",
+   "to": "BMC",
+   "depart": 1050,
+   "arrive": 1060,
+   "days": [
+    "T"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "HC",
+   "to": "BMC",
+   "depart": 1050,
+   "arrive": 1060,
+   "days": [
+    "W"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "HC",
+   "to": "BMC",
+   "depart": 1050,
+   "arrive": 1060,
+   "days": [
+    "F"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "HC",
+   "to": "BMC",
+   "depart": 1075,
+   "arrive": 1085,
+   "days": [
+    "Th"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "HC",
+   "to": "BMC",
+   "depart": 1085,
+   "arrive": 1095,
+   "days": [
+    "M"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "HC",
+   "to": "BMC",
+   "depart": 1085,
+   "arrive": 1095,
+   "days": [
+    "T"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "HC",
+   "to": "BMC",
+   "depart": 1085,
+   "arrive": 1095,
+   "days": [
+    "W"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "HC",
+   "to": "BMC",
+   "depart": 1085,
+   "arrive": 1095,
+   "days": [
+    "F"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "HC",
+   "to": "BMC",
+   "depart": 1105,
+   "arrive": 1115,
+   "days": [
+    "Th"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "HC",
+   "to": "BMC",
+   "depart": 1130,
+   "arrive": 1140,
+   "days": [
+    "M"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "HC",
+   "to": "BMC",
+   "depart": 1130,
+   "arrive": 1140,
+   "days": [
+    "T"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "HC",
+   "to": "BMC",
+   "depart": 1130,
+   "arrive": 1140,
+   "days": [
+    "W"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "HC",
+   "to": "BMC",
+   "depart": 1130,
+   "arrive": 1140,
+   "days": [
+    "F"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "HC",
+   "to": "BMC",
+   "depart": 1140,
+   "arrive": 1150,
+   "days": [
+    "Th"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "HC",
+   "to": "BMC",
+   "depart": 1170,
+   "arrive": 1180,
+   "days": [
+    "M"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "HC",
+   "to": "BMC",
+   "depart": 1170,
+   "arrive": 1180,
+   "days": [
+    "T"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "HC",
+   "to": "BMC",
+   "depart": 1170,
+   "arrive": 1180,
+   "days": [
+    "W"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "HC",
+   "to": "BMC",
+   "depart": 1170,
+   "arrive": 1180,
+   "days": [
+    "F"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "HC",
+   "to": "BMC",
+   "depart": 1180,
+   "arrive": 1190,
+   "days": [
+    "Th"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "HC",
+   "to": "BMC",
+   "depart": 1215,
+   "arrive": 1225,
+   "days": [
+    "M"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "HC",
+   "to": "BMC",
+   "depart": 1215,
+   "arrive": 1225,
+   "days": [
+    "T"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "HC",
+   "to": "BMC",
+   "depart": 1215,
+   "arrive": 1225,
+   "days": [
+    "W"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "HC",
+   "to": "BMC",
+   "depart": 1215,
+   "arrive": 1225,
+   "days": [
+    "F"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "HC",
+   "to": "BMC",
+   "depart": 1220,
+   "arrive": 1230,
+   "days": [
+    "Th"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "HC",
+   "to": "BMC",
+   "depart": 1250,
+   "arrive": 1260,
+   "days": [
+    "M"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "HC",
+   "to": "BMC",
+   "depart": 1250,
+   "arrive": 1260,
+   "days": [
+    "T"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "HC",
+   "to": "BMC",
+   "depart": 1250,
+   "arrive": 1260,
+   "days": [
+    "F"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "HC",
+   "to": "BMC",
+   "depart": 1255,
+   "arrive": 1265,
+   "days": [
+    "W"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "HC",
+   "to": "BMC",
+   "depart": 1255,
+   "arrive": 1265,
+   "days": [
+    "Th"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "HC",
+   "to": "BMC",
+   "depart": 1280,
+   "arrive": 1290,
+   "days": [
+    "M"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "HC",
+   "to": "BMC",
+   "depart": 1280,
+   "arrive": 1290,
+   "days": [
+    "T"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "HC",
+   "to": "BMC",
+   "depart": 1280,
+   "arrive": 1290,
+   "days": [
+    "F"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "HC",
+   "to": "BMC",
+   "depart": 1285,
+   "arrive": 1295,
+   "days": [
+    "W"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "HC",
+   "to": "BMC",
+   "depart": 1300,
+   "arrive": 1310,
+   "days": [
+    "Th"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "HC",
+   "to": "BMC",
+   "depart": 1310,
+   "arrive": 1320,
+   "days": [
+    "F"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "HC",
+   "to": "BMC",
+   "depart": 1315,
+   "arrive": 1325,
+   "days": [
+    "W"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "HC",
+   "to": "BMC",
+   "depart": 1325,
+   "arrive": 1335,
+   "days": [
+    "M"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "HC",
+   "to": "BMC",
+   "depart": 1325,
+   "arrive": 1335,
+   "days": [
+    "T"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "HC",
+   "to": "BMC",
+   "depart": 1340,
+   "arrive": 1350,
+   "days": [
+    "F"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "HC",
+   "to": "BMC",
+   "depart": 1350,
+   "arrive": 1360,
+   "days": [
+    "M"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "HC",
+   "to": "BMC",
+   "depart": 1350,
+   "arrive": 1360,
+   "days": [
+    "T"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "HC",
+   "to": "BMC",
+   "depart": 1350,
+   "arrive": 1360,
+   "days": [
+    "W"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "HC",
+   "to": "BMC",
+   "depart": 1350,
+   "arrive": 1360,
+   "days": [
+    "Th"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "HC",
+   "to": "BMC",
+   "depart": 1390,
+   "arrive": 1400,
+   "days": [
+    "M"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "HC",
+   "to": "BMC",
+   "depart": 1390,
+   "arrive": 1400,
+   "days": [
+    "T"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "HC",
+   "to": "BMC",
+   "depart": 1390,
+   "arrive": 1400,
+   "days": [
+    "W"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "HC",
+   "to": "BMC",
+   "depart": 1390,
+   "arrive": 1400,
+   "days": [
+    "Th"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "HC",
+   "to": "BMC",
+   "depart": 1390,
+   "arrive": 1400,
+   "days": [
+    "F"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "HC",
+   "to": "BMC",
+   "depart": 1440,
+   "arrive": 1450,
+   "days": [
+    "M"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "HC",
+   "to": "BMC",
+   "depart": 1440,
+   "arrive": 1450,
+   "days": [
+    "T"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "HC",
+   "to": "BMC",
+   "depart": 1440,
+   "arrive": 1450,
+   "days": [
+    "W"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "HC",
+   "to": "BMC",
+   "depart": 1440,
+   "arrive": 1450,
+   "days": [
+    "Th"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "HC",
+   "to": "BMC",
+   "depart": 1440,
+   "arrive": 1450,
+   "days": [
+    "F"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "HC",
+   "to": "BMC",
+   "depart": 1485,
+   "arrive": 1495,
+   "days": [
+    "M"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "HC",
+   "to": "BMC",
+   "depart": 1485,
+   "arrive": 1495,
+   "days": [
+    "T"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "HC",
+   "to": "BMC",
+   "depart": 1485,
+   "arrive": 1495,
+   "days": [
+    "W"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "HC",
+   "to": "BMC",
+   "depart": 1485,
+   "arrive": 1495,
+   "days": [
+    "Th"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "HC",
+   "to": "BMC",
+   "depart": 1485,
+   "arrive": 1495,
+   "days": [
+    "F"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "HC",
+   "to": "BMC",
+   "depart": 1545,
+   "arrive": 1555,
+   "days": [
+    "F"
+   ]
+  },
+  {
+   "route": "Blue Bus",
+   "from": "HC",
+   "to": "BMC",
+   "depart": 1600,
+   "arrive": 1610,
+   "days": [
+    "F"
+   ]
+  },
+  {
+   "route": "Tri-Co Van",
+   "from": "HC",
+   "to": "SC",
+   "depart": 465,
+   "arrive": 495,
+   "days": [
+    "M",
+    "T",
+    "W",
+    "Th",
+    "F"
+   ]
+  },
+  {
+   "route": "Tri-Co Van",
+   "from": "HC",
+   "to": "SC",
+   "depart": 560,
+   "arrive": 590,
+   "days": [
+    "M",
+    "T",
+    "W",
+    "Th",
+    "F"
+   ]
+  },
+  {
+   "route": "Tri-Co Van",
+   "from": "HC",
+   "to": "SC",
+   "depart": 620,
+   "arrive": 650,
+   "days": [
+    "M",
+    "T",
+    "W",
+    "Th",
+    "F"
+   ]
+  },
+  {
+   "route": "Tri-Co Van",
+   "from": "HC",
+   "to": "SC",
+   "depart": 680,
+   "arrive": 710,
+   "days": [
+    "M",
+    "T",
+    "W",
+    "Th",
+    "F"
+   ]
+  },
+  {
+   "route": "Tri-Co Van",
+   "from": "HC",
+   "to": "SC",
+   "depart": 740,
+   "arrive": 770,
+   "days": [
+    "M",
+    "T",
+    "W",
+    "Th",
+    "F"
+   ]
+  },
+  {
+   "route": "Tri-Co Van",
+   "from": "HC",
+   "to": "SC",
+   "depart": 800,
+   "arrive": 830,
+   "days": [
+    "M",
+    "T",
+    "W",
+    "Th",
+    "F"
+   ]
+  },
+  {
+   "route": "Tri-Co Van",
+   "from": "HC",
+   "to": "SC",
+   "depart": 920,
+   "arrive": 960,
+   "days": [
+    "M",
+    "T",
+    "W",
+    "Th",
+    "F"
+   ]
+  },
+  {
+   "route": "Tri-Co Van",
+   "from": "HC",
+   "to": "SC",
+   "depart": 1040,
+   "arrive": 1070,
+   "days": [
+    "M",
+    "T",
+    "W",
+    "Th",
+    "F"
+   ]
+  },
+  {
+   "route": "Tri-Co Van",
+   "from": "HC",
+   "to": "SC",
+   "depart": 1220,
+   "arrive": 1250,
+   "days": [
+    "M",
+    "T",
+    "W",
+    "Th",
+    "F"
+   ]
+  },
+  {
+   "route": "Tri-Co Van",
+   "from": "HC",
+   "to": "SC",
+   "depart": 1280,
+   "arrive": 1310,
+   "days": [
+    "M",
+    "T",
+    "W",
+    "Th",
+    "F"
+   ]
+  },
+  {
+   "route": "Tri-Co Van",
+   "from": "HC",
+   "to": "SC",
+   "depart": 1360,
+   "arrive": 1390,
+   "days": [
+    "M",
+    "T",
+    "W",
+    "Th"
+   ]
+  },
+  {
+   "route": "Tri-Co Van",
+   "from": "HC",
+   "to": "SC",
+   "depart": 1420,
+   "arrive": 1450,
+   "days": [
+    "F"
+   ]
+  },
+  {
+   "route": "Tri-Co Van",
+   "from": "HC",
+   "to": "SC",
+   "depart": 1480,
+   "arrive": 1510,
+   "days": [
+    "F"
+   ]
+  },
+  {
+   "route": "Tri-Co Van",
+   "from": "HC",
+   "to": "SC",
+   "depart": 1570,
+   "arrive": 1590,
+   "days": [
+    "F"
+   ]
+  },
+  {
+   "route": "Tri-Co Van",
+   "from": "SC",
+   "to": "BMC",
+   "depart": 430,
+   "arrive": 465,
+   "days": [
+    "M",
+    "W",
+    "F"
+   ]
+  },
+  {
+   "route": "Tri-Co Van",
+   "from": "SC",
+   "to": "BMC",
+   "depart": 430,
+   "arrive": 465,
+   "days": [
+    "T",
+    "Th"
+   ]
+  },
+  {
+   "route": "Tri-Co Van",
+   "from": "SC",
+   "to": "BMC",
+   "depart": 510,
+   "arrive": 545,
+   "days": [
+    "M",
+    "W",
+    "F"
+   ]
+  },
+  {
+   "route": "Tri-Co Van",
+   "from": "SC",
+   "to": "BMC",
+   "depart": 510,
+   "arrive": 545,
+   "days": [
+    "T",
+    "Th"
+   ]
+  },
+  {
+   "route": "Tri-Co Van",
+   "from": "SC",
+   "to": "BMC",
+   "depart": 590,
+   "arrive": 620,
+   "days": [
+    "T",
+    "Th"
+   ]
+  },
+  {
+   "route": "Tri-Co Van",
+   "from": "SC",
+   "to": "BMC",
+   "depart": 605,
+   "arrive": 635,
+   "days": [
+    "M",
+    "W",
+    "F"
+   ]
+  },
+  {
+   "route": "Tri-Co Van",
+   "from": "SC",
+   "to": "BMC",
+   "depart": 650,
+   "arrive": 680,
+   "days": [
+    "T",
+    "Th"
+   ]
+  },
+  {
+   "route": "Tri-Co Van",
+   "from": "SC",
+   "to": "BMC",
+   "depart": 665,
+   "arrive": 695,
+   "days": [
+    "M",
+    "W",
+    "F"
+   ]
+  },
+  {
+   "route": "Tri-Co Van",
+   "from": "SC",
+   "to": "BMC",
+   "depart": 710,
+   "arrive": 740,
+   "days": [
+    "T",
+    "Th"
+   ]
+  },
+  {
+   "route": "Tri-Co Van",
+   "from": "SC",
+   "to": "BMC",
+   "depart": 725,
+   "arrive": 755,
+   "days": [
+    "M",
+    "W",
+    "F"
+   ]
+  },
+  {
+   "route": "Tri-Co Van",
+   "from": "SC",
+   "to": "BMC",
+   "depart": 770,
+   "arrive": 800,
+   "days": [
+    "T",
+    "Th"
+   ]
+  },
+  {
+   "route": "Tri-Co Van",
+   "from": "SC",
+   "to": "BMC",
+   "depart": 785,
+   "arrive": 815,
+   "days": [
+    "M",
+    "W",
+    "F"
+   ]
+  },
+  {
+   "route": "Tri-Co Van",
+   "from": "SC",
+   "to": "BMC",
+   "depart": 890,
+   "arrive": 920,
+   "days": [
+    "T",
+    "Th"
+   ]
+  },
+  {
+   "route": "Tri-Co Van",
+   "from": "SC",
+   "to": "BMC",
+   "depart": 920,
+   "arrive": 950,
+   "days": [
+    "M",
+    "W",
+    "F"
+   ]
+  },
+  {
+   "route": "Tri-Co Van",
+   "from": "SC",
+   "to": "BMC",
+   "depart": 980,
+   "arrive": 1010,
+   "days": [
+    "T",
+    "Th"
+   ]
+  },
+  {
+   "route": "Tri-Co Van",
+   "from": "SC",
+   "to": "BMC",
+   "depart": 1010,
+   "arrive": 1040,
+   "days": [
+    "M",
+    "W",
+    "F"
+   ]
+  },
+  {
+   "route": "Tri-Co Van",
+   "from": "SC",
+   "to": "BMC",
+   "depart": 1090,
+   "arrive": 1120,
+   "days": [
+    "T",
+    "Th"
+   ]
+  },
+  {
+   "route": "Tri-Co Van",
+   "from": "SC",
+   "to": "BMC",
+   "depart": 1100,
+   "arrive": 1130,
+   "days": [
+    "M",
+    "W",
+    "F"
+   ]
+  },
+  {
+   "route": "Tri-Co Van",
+   "from": "SC",
+   "to": "HC",
+   "depart": 510,
+   "arrive": 540,
+   "days": [
+    "M",
+    "T",
+    "W",
+    "Th",
+    "F"
+   ]
+  },
+  {
+   "route": "Tri-Co Van",
+   "from": "SC",
+   "to": "HC",
+   "depart": 590,
+   "arrive": 620,
+   "days": [
+    "M",
+    "T",
+    "W",
+    "Th",
+    "F"
+   ]
+  },
+  {
+   "route": "Tri-Co Van",
+   "from": "SC",
+   "to": "HC",
+   "depart": 650,
+   "arrive": 680,
+   "days": [
+    "M",
+    "T",
+    "W",
+    "Th",
+    "F"
+   ]
+  },
+  {
+   "route": "Tri-Co Van",
+   "from": "SC",
+   "to": "HC",
+   "depart": 710,
+   "arrive": 740,
+   "days": [
+    "M",
+    "T",
+    "W",
+    "Th",
+    "F"
+   ]
+  },
+  {
+   "route": "Tri-Co Van",
+   "from": "SC",
+   "to": "HC",
+   "depart": 770,
+   "arrive": 800,
+   "days": [
+    "M",
+    "T",
+    "W",
+    "Th",
+    "F"
+   ]
+  },
+  {
+   "route": "Tri-Co Van",
+   "from": "SC",
+   "to": "HC",
+   "depart": 830,
+   "arrive": 860,
+   "days": [
+    "M",
+    "T",
+    "W",
+    "Th",
+    "F"
+   ]
+  },
+  {
+   "route": "Tri-Co Van",
+   "from": "SC",
+   "to": "HC",
+   "depart": 975,
+   "arrive": 1005,
+   "days": [
+    "M",
+    "T",
+    "W",
+    "Th",
+    "F"
+   ]
+  },
+  {
+   "route": "Tri-Co Van",
+   "from": "SC",
+   "to": "HC",
+   "depart": 1070,
+   "arrive": 1100,
+   "days": [
+    "M",
+    "T",
+    "W",
+    "Th",
+    "F"
+   ]
+  },
+  {
+   "route": "Tri-Co Van",
+   "from": "SC",
+   "to": "HC",
+   "depart": 1250,
+   "arrive": 1280,
+   "days": [
+    "M",
+    "T",
+    "W",
+    "Th",
+    "F"
+   ]
+  },
+  {
+   "route": "Tri-Co Van",
+   "from": "SC",
+   "to": "HC",
+   "depart": 1325,
+   "arrive": 1350,
+   "days": [
+    "M",
+    "T",
+    "W",
+    "Th",
+    "F"
+   ]
+  },
+  {
+   "route": "Tri-Co Van",
+   "from": "SC",
+   "to": "HC",
+   "depart": 1390,
+   "arrive": 1420,
+   "days": [
+    "M",
+    "T",
+    "W",
+    "Th"
+   ]
+  },
+  {
+   "route": "Tri-Co Van",
+   "from": "SC",
+   "to": "HC",
+   "depart": 1450,
+   "arrive": 1480,
+   "days": [
+    "F"
+   ]
+  },
+  {
+   "route": "Tri-Co Van",
+   "from": "SC",
+   "to": "HC",
+   "depart": 1510,
+   "arrive": 1540,
+   "days": [
+    "F"
+   ]
+  },
+  {
+   "route": "Tri-Co Van",
+   "from": "SC",
+   "to": "HC",
+   "depart": 1590,
+   "arrive": 1620,
+   "days": [
+    "F"
+   ]
+  }
+ ]
+}
