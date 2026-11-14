@@ -41,7 +41,7 @@ test("same bus on several days merges; red legs are skipped", () => {
   const plan = Planner.planWeek([a, b, c], trips, "HC");
   const { events, skipped } = Cal.buildEvents(plan, "spring_2027");
   const bus = events.filter((e) => e.kind === "bus");
-  const out = bus.find((e) => e.title === "🚌 Blue Bus Haverford → Bryn Mawr");
+  const out = bus.find((e) => e.title === "Blue Bus Haverford → Bryn Mawr");
   assert.deepEqual(out.days, ["M", "W", "F"]);
   assert.equal(out.start, 620);
   assert.match(out.description, /30 min to reach the stop · 30 min until class/);

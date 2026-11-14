@@ -38,19 +38,6 @@ npm run schedules   # rewrites data/buses.json and prints trip counts per day
 npm test
 ```
 
-UI notes : distinguish reds better, full name on dropdown, configurable buffer times, make othe cart different from the schedule, convertes minus>60 to hours and minutes, emphasize time. dropdown on day? Change day header? For setting do > 10 good, <10 and >5 reasonable and >5 not good. Add, manual event time place.
-
-Have name of class as main, code underneath. Make it more clear which classes cause conflicts. Say until instead of 'reach' for bus to class. Group conflicting classes together.
-
-Worker link: https://bussynccalendar.workers.dev
-
-[bussync-cal.bussynccalendar.workers.dev](https://bussync-cal.bussynccalendar.workers.dev)
-
-Change subdomain;
-[dash.cloudflare.com/65a5c5ee232644f55aff072f39ea44c4/workers/subdomain](https://dash.cloudflare.com/65a5c5ee232644f55aff072f39ea44c4/workers/subdomain)
-
-
-
 ## Layout
 
 - `content/` — injects the Add buttons on search results
