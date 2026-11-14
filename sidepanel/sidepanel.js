@@ -5,6 +5,9 @@
   const Feed = globalThis.BusSyncFeed;
   // Deployed worker/ (see worker/README.md). Leave empty to hide the subscribe buttons.
   const FEED_ORIGIN = "https://bussync-cal.bussynccalendar.workers.dev";
+  // Export options besides Google Calendar. Code paths are kept; flip to true to bring them back.
+  const SHOW_ICS_DOWNLOAD = false;
+  const SHOW_COPY_LINK = false;
   const GUIDE_URL = "https://www.swarthmore.edu/tricollege-course-guide/tricollege-course-guide";
 
   const $cart = document.getElementById("cart");
@@ -170,8 +173,10 @@
     const timed = plan.cart.filter((c) => c.meetings.length);
     const dates = semesters[activeSemester];
     const ready = timed.length > 0 && !!dates;
+    $ics.hidden = !SHOW_ICS_DOWNLOAD;
     $ics.disabled = !ready;
-    $gcal.hidden = $copyLink.hidden = $feedHint.hidden = !FEED_ORIGIN;
+    $gcal.hidden = $feedHint.hidden = !FEED_ORIGIN;
+    $copyLink.hidden = !FEED_ORIGIN || !SHOW_COPY_LINK;
     $gcal.disabled = $copyLink.disabled = !ready;
     if (!timed.length) $icsStatus.textContent = "";
     else if (!dates) $icsStatus.textContent = `No class dates on file for ${semesterLabel(activeSemester)} yet.`;
@@ -209,7 +214,7 @@
 
   async function feedUrl(x) {
     const d = await Feed.encodeFeed(x.events, x.dates, x.name);
-    if (d.length > Feed.LIMITS.param) throw new Error("Too many events to fit in a calendar link. Use Download .ics instead.");
+    if (d.length > Feed.LIMITS.param) throw new Error(`Too many events to fit in a calendar link.${SHOW_ICS_DOWNLOAD ? " Use Download .ics instead." : ""}`);
     return `${FEED_ORIGIN.replace(/\/+$/, "")}/cal.ics?d=${d}`;
   }
 

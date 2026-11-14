@@ -196,7 +196,8 @@ section > h2 { font-size: 22px; line-height: 1.3; margin-bottom: 10px; }
 .export .note:empty { display: none; }
 .hint { margin: 8px 0 0; font-size: 13px; color: var(--text-muted); }
 .btn[hidden] { display: none; }
-.export-actions { display: flex; flex-wrap: wrap; gap: 8px; }
+.export-actions { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; }
+.export-prompt { font-weight: 600; }
 .btn-secondary { background: var(--white); color: var(--garnet); border: 1px solid var(--garnet); }
 .btn-secondary:hover { background: var(--white); color: var(--garnet-dark); border-color: var(--garnet-dark); }
 .btn-secondary:disabled { border-color: var(--zebra); }
