@@ -1,6 +1,10 @@
 (function () {
   const P = globalThis.BusSyncParse;
   const Planner = globalThis.BusSyncPlanner;
+  const Cal = globalThis.BusSyncCalendar;
+  const Feed = globalThis.BusSyncFeed;
+  // Deployed worker/ (see worker/README.md). Leave empty to hide the subscribe buttons.
+  const FEED_ORIGIN = "https://bussync-cal.bussynccalendar.workers.dev";
   const GUIDE_URL = "https://www.swarthmore.edu/tricollege-course-guide/tricollege-course-guide";
 
   const $cart = document.getElementById("cart");
@@ -9,8 +13,15 @@
   const $home = document.getElementById("home");
   const $semester = document.getElementById("semester");
   const $semesterWrap = document.getElementById("semester-wrap");
+  const $ics = document.getElementById("ics");
+  const $icsStatus = document.getElementById("ics-status");
+  const $gcal = document.getElementById("gcal");
+  const $copyLink = document.getElementById("copy-link");
+  const $feedHint = document.getElementById("feed-hint");
 
   let trips = [];
+  let semesters = {}; // semester key -> { start, end, exclude }
+  let currentPlan = null;
   let cart = [];
   let settings = { homeCampus: "" };
   let activeSemester = ""; // chosen in the panel; not persisted
@@ -80,20 +91,7 @@
     return `${seg.route} ${fmt(seg.depart)} ${label(seg.from)} → ${fmt(seg.arrive)} ${label(seg.to)}`;
   }
 
-  // 45 -> "45 min", 60 -> "1 hr", 85 -> "1 hr 25 min"
-  function duration(min) {
-    if (min <= 60) return `${min} min`;
-    const h = Math.floor(min / 60), m = min % 60;
-    return m ? `${h} hr ${m} min` : `${h} hr`;
-  }
-
-  function slackText(leg) {
-    const o = leg.option;
-    const parts = [];
-    if (leg.earliest != null) parts.push(`${duration(o.depart - leg.earliest)} to reach the stop`);
-    if (leg.latest != null) parts.push(`${duration(leg.latest - o.arrive)} to reach class`);
-    return parts.join(" · ");
-  }
+  const { duration, slackText } = Cal;
 
   function renderLeg(leg) {
     const lines = [];
@@ -123,8 +121,9 @@
       item.conflict ? el("span", { class: "dot red", title: "Overlaps with another class" }) : el("span", { class: "dot none" }),
       el("div", { class: "class-body" },
         el("div", { class: "class-time" + (item.conflict ? " is-red" : "") }, `${fmt(item.start)}–${fmt(item.end)}`),
-        el("div", {}, el("strong", {}, item.course.code), " ", el("span", { class: "campus" }, label(item.course.campus))),
-        el("div", { class: "title" }, item.course.title)
+        el("div", { class: "class-line" },
+          el("strong", { class: "title" }, item.course.title),
+          el("span", { class: "campus" }, label(item.course.campus)))
       )
     );
   }
@@ -163,7 +162,81 @@
     $home.value = settings.homeCampus || "";
     renderCart(plan, courses);
     renderWeek(plan);
+    currentPlan = plan;
+    renderExport(plan);
   }
+
+  function renderExport(plan) {
+    const timed = plan.cart.filter((c) => c.meetings.length);
+    const dates = semesters[activeSemester];
+    const ready = timed.length > 0 && !!dates;
+    $ics.disabled = !ready;
+    $gcal.hidden = $copyLink.hidden = $feedHint.hidden = !FEED_ORIGIN;
+    $gcal.disabled = $copyLink.disabled = !ready;
+    if (!timed.length) $icsStatus.textContent = "";
+    else if (!dates) $icsStatus.textContent = `No class dates on file for ${semesterLabel(activeSemester)} yet.`;
+    else $icsStatus.textContent = `Weekly from ${dates.start} to ${dates.end}, skipping breaks.`;
+  }
+
+  // Events for the semester on screen, plus a human summary of what was left out.
+  function currentExport() {
+    const dates = semesters[activeSemester];
+    if (!currentPlan || !dates) return null;
+    const name = `BusSync – ${semesterLabel(activeSemester)}`;
+    const { events, skipped } = Cal.buildEvents(currentPlan, activeSemester);
+    const classes = events.filter((e) => e.kind === "class").length;
+    const buses = events.length - classes;
+    let summary = `${classes} class and ${buses} bus event${buses === 1 ? "" : "s"}.`;
+    if (skipped.length) {
+      const list = skipped.map((s) => `${P.DAY_NAMES[s.day]} ${label(s.from)} → ${label(s.to)}`).join(", ");
+      summary += ` Not included (no bus fits): ${list}.`;
+    }
+    return { name, dates, events, summary };
+  }
+
+  function downloadICS() {
+    const x = currentExport();
+    if (!x) return;
+    const ics = Cal.toICS(x.events, x.dates, { name: x.name });
+    const url = URL.createObjectURL(new Blob([ics], { type: "text/calendar;charset=utf-8" }));
+    const a = el("a", { href: url, download: `BusSync-${semesterLabel(activeSemester).replace(/\s+/g, "-")}.ics` });
+    document.body.append(a);
+    a.click();
+    a.remove();
+    setTimeout(() => URL.revokeObjectURL(url), 1000);
+    $icsStatus.textContent = `Saved ${x.summary}`;
+  }
+
+  async function feedUrl(x) {
+    const d = await Feed.encodeFeed(x.events, x.dates, x.name);
+    if (d.length > Feed.LIMITS.param) throw new Error("Too many events to fit in a calendar link. Use Download .ics instead.");
+    return `${FEED_ORIGIN.replace(/\/+$/, "")}/cal.ics?d=${d}`;
+  }
+
+  async function withFeed(action) {
+    const x = currentExport();
+    if (!x) return;
+    try {
+      await action(await feedUrl(x), x);
+    } catch (err) {
+      console.error(err);
+      $icsStatus.textContent = err.message || "Couldn't create the calendar link.";
+    }
+  }
+
+  $ics.addEventListener("click", downloadICS);
+  $gcal.addEventListener("click", () =>
+    withFeed(async (url, x) => {
+      await chrome.tabs.create({ url: Feed.googleSubscribeUrl(url) });
+      $icsStatus.textContent = `Opened Google Calendar with ${x.summary} Click “Add” there to confirm.`;
+    })
+  );
+  $copyLink.addEventListener("click", () =>
+    withFeed(async (url, x) => {
+      await navigator.clipboard.writeText(url);
+      $icsStatus.textContent = `Link copied (${x.summary}) Paste it into “Subscribe from URL” in Apple Calendar or Outlook.`;
+    })
+  );
 
   async function removeCourse(id) {
     const next = cart.filter((c) => c.id !== id);
@@ -194,11 +267,13 @@
   });
 
   async function init() {
-    const [data, stored] = await Promise.all([
+    const [data, sems, stored] = await Promise.all([
       fetch(chrome.runtime.getURL("data/buses.json")).then((r) => r.json()),
+      fetch(chrome.runtime.getURL("data/semesters.json")).then((r) => r.json()).catch(() => ({})),
       chrome.storage.local.get(["cart", "settings"]),
     ]);
     trips = data.trips;
+    semesters = sems;
     cart = Array.isArray(stored.cart) ? stored.cart : [];
     settings = { homeCampus: "", ...(stored.settings || {}) };
     render();

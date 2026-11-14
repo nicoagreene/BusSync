@@ -164,6 +164,9 @@ section > h2 { font-size: 22px; line-height: 1.3; margin-bottom: 10px; }
 .item { display: flex; gap: 10px; }
 .class-time { font-weight: 600; font-size: 14px; }
 .class-time.is-red { color: var(--bad); }
+.class-body { flex: 1; min-width: 0; }
+.class-line { display: flex; align-items: baseline; justify-content: space-between; gap: 8px; }
+.class-line .campus { flex: none; }
 .leg-head {
   font-size: 12px;
   font-weight: 600;
@@ -174,3 +177,27 @@ section > h2 { font-size: 22px; line-height: 1.3; margin-bottom: 10px; }
 .leg-trip { font-weight: 500; }
 .leg-sub { font-size: 13px; color: var(--text-muted); }
 .leg.red .leg-trip { color: var(--bad); }
+
+/* Calendar export */
+.btn {
+  height: 40px;
+  padding: 0 18px;
+  border: 0;
+  border-radius: 4px;
+  background: var(--garnet);
+  color: var(--white);
+  font: inherit;
+  font-weight: 600;
+  cursor: pointer;
+}
+.btn:hover { background: var(--garnet-dark); }
+.btn:focus-visible { outline: 2px solid var(--black); outline-offset: 2px; }
+.btn:disabled { background: var(--zebra); color: var(--text-muted); cursor: not-allowed; }
+.export .note:empty { display: none; }
+.hint { margin: 8px 0 0; font-size: 13px; color: var(--text-muted); }
+.btn[hidden] { display: none; }
+.export-actions { display: flex; flex-wrap: wrap; gap: 8px; }
+.btn-secondary { background: var(--white); color: var(--garnet); border: 1px solid var(--garnet); }
+.btn-secondary:hover { background: var(--white); color: var(--garnet-dark); border-color: var(--garnet-dark); }
+.btn-secondary:disabled { border-color: var(--zebra); }
+.hint[hidden] { display: none; }

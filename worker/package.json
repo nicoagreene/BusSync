@@ -1,0 +1,12 @@
+{
+  "name": "bussync-cal",
+  "private": true,
+  "description": "Stateless .ics feed for BusSync calendar subscriptions",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy"
+  },
+  "devDependencies": {
+    "wrangler": "^4.0.0"
+  }
+}

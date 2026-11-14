@@ -1,0 +1,23 @@
+{
+  "_source": "Haverford College Five-Year Academic Calendar 2023-2028 (Registrar). Keys match the course guide's semester param. start/end = first/last day of classes; exclude = no-class date ranges (inclusive).",
+  "fall_2026": {
+    "start": "2026-08-31",
+    "end": "2026-12-11",
+    "exclude": [["2026-10-09", "2026-10-18"], ["2026-11-25", "2026-11-29"]]
+  },
+  "spring_2027": {
+    "start": "2027-01-19",
+    "end": "2027-04-30",
+    "exclude": [["2027-03-05", "2027-03-14"]]
+  },
+  "fall_2027": {
+    "start": "2027-08-30",
+    "end": "2027-12-10",
+    "exclude": [["2027-10-08", "2027-10-17"], ["2027-11-24", "2027-11-28"]]
+  },
+  "spring_2028": {
+    "start": "2028-01-18",
+    "end": "2028-04-28",
+    "exclude": [["2028-03-03", "2028-03-12"]]
+  }
+}

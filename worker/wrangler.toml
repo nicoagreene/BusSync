@@ -1,0 +1,8 @@
+name = "bussync-cal"
+main = "src/index.js"
+compatibility_date = "2025-06-01"
+workers_dev = true
+
+# Keep request logs off: feed links contain a student's schedule.
+[observability]
+enabled = false
