@@ -1,94 +1,176 @@
-:root {
-  --bg: #ffffff;
-  --surface: #f5f6f8;
-  --border: #e2e4e9;
-  --text: #1a1c21;
-  --muted: #5f6470;
-  --accent: #1d4ed8;
-  --green: #15803d;
-  --yellow: #ca8a04;
-  --red: #dc2626;
-  color-scheme: light;
+/* Styled to match the Tri-Co Course Guide (Swarthmore theme, garnet). */
+@font-face {
+  font-family: Larsseit;
+  font-weight: 300;
+  src: url(https://www.swarthmore.edu/themes/custom/swarthmore_theme/fonts/Larsseit-Light.woff2) format("woff2");
 }
-@media (prefers-color-scheme: dark) {
-  :root {
-    --bg: #17181c;
-    --surface: #212328;
-    --border: #33363d;
-    --text: #e8e9ec;
-    --muted: #a0a4ad;
-    --accent: #7aa2ff;
-    --green: #4ade80;
-    --yellow: #facc15;
-    --red: #f87171;
-    color-scheme: dark;
-  }
+@font-face {
+  font-family: Larsseit;
+  font-weight: 400;
+  src: url(https://www.swarthmore.edu/themes/custom/swarthmore_theme/fonts/Larsseit.woff2) format("woff2");
+}
+@font-face {
+  font-family: Larsseit;
+  font-weight: 500;
+  src: url(https://www.swarthmore.edu/themes/custom/swarthmore_theme/fonts/Larsseit-Medium.woff2) format("woff2");
+}
+@font-face {
+  font-family: Larsseit;
+  font-weight: 600;
+  src: url(https://www.swarthmore.edu/themes/custom/swarthmore_theme/fonts/Larsseit-Bold.woff2) format("woff2");
+}
+
+:root {
+  --garnet: #b43135;
+  --garnet-dark: #5a1012;
+  --black: #000;
+  --text-muted: #4a4a4a;
+  --zebra: #f2f2f2;
+  --white: #fff;
+  --ok: #3d7637;      /* site's green theme */
+  --maybe: #d99a00;
+  --bad: #e0161c;     /* brighter than garnet so it reads as a warning */
+  color-scheme: light;
 }
 
 * { box-sizing: border-box; }
+html, body { margin: 0; }
 body {
-  margin: 0;
-  padding: 12px 14px 32px;
-  background: var(--bg);
-  color: var(--text);
-  font: 13px/1.45 system-ui, -apple-system, "Segoe UI", sans-serif;
+  padding: 0 0 32px;
+  background: var(--white);
+  color: var(--black);
+  font-family: Larsseit, helvetica, arial, sans-serif;
+  font-size: 15px;
+  line-height: 1.35;
+  -webkit-font-smoothing: antialiased;
+  font-kerning: normal;
 }
-a { color: var(--accent); }
-h1 { font-size: 17px; margin: 0; }
-h2 { font-size: 14px; margin: 18px 0 8px; }
-h3 { font-size: 13px; margin: 0 0 6px; color: var(--muted); text-transform: uppercase; letter-spacing: .04em; }
+a { color: var(--garnet); text-decoration: none; transition: color .2s ease; }
+a:hover { color: var(--garnet-dark); text-decoration: underline; }
+h1, h2, h3 { margin: 0; font-weight: 600; }
 ul { list-style: none; margin: 0; padding: 0; }
 
-.top { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 8px; }
-.home { display: flex; align-items: center; gap: 6px; color: var(--muted); }
-.home select, .semester select {
-  font: inherit; color: var(--text); background: var(--surface);
-  border: 1px solid var(--border); border-radius: 6px; padding: 3px 6px;
+/* Header: garnet strip like the site's breadcrumb bar */
+.top {
+  padding: 14px 16px;
+  background: var(--garnet);
+  color: var(--white);
 }
+.top h1 { font-size: 24px; line-height: 1.2; }
+.top p { margin: 2px 0 0; font-size: 13px; font-weight: 300; }
 
-.semester { display: flex; align-items: center; gap: 6px; margin-top: 8px; color: var(--muted); }
-.semester[hidden] { display: none; }
+.controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  padding: 16px 16px 0;
+}
+.field { flex: 1 1 140px; display: block; }
+.field[hidden] { display: none; }
+.field span {
+  display: block;
+  margin-bottom: 6px;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: .05em;
+  text-transform: uppercase;
+}
+.field select {
+  width: 100%;
+  height: 40px;
+  padding: 0 12px;
+  border: 1px solid var(--black);
+  border-radius: 4px;
+  background: var(--white);
+  color: var(--black);
+  font: inherit;
+}
+.field select:focus { border-width: 2px; outline: none; }
 
-.legend { display: flex; flex-wrap: wrap; gap: 4px 12px; margin-top: 10px; color: var(--muted); font-size: 12px; }
-.legend li { display: flex; align-items: center; gap: 5px; }
+.legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px 14px;
+  margin: 14px 16px 0;
+  font-size: 13px;
+  color: var(--text-muted);
+}
+.legend li { display: flex; align-items: center; gap: 6px; }
 
-.dot { display: inline-block; flex: none; width: 9px; height: 9px; border-radius: 50%; margin-top: 4px; }
-.dot.green { background: var(--green); }
-.dot.yellow { background: var(--yellow); }
-.dot.red { background: var(--red); }
+section { margin: 22px 16px 0; }
+section > h2 { font-size: 22px; line-height: 1.3; margin-bottom: 10px; }
+.count { font-weight: 300; color: var(--text-muted); }
+
+/* Table-style blocks: garnet header row, zebra body (table.table--zebra) */
+.zebra { border-bottom: 2px solid var(--zebra); }
+.zebra-head {
+  display: block;
+  padding: 10px 14px 8px;
+  background: var(--garnet);
+  color: var(--white);
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: .05em;
+  line-height: 1.58;
+  text-transform: uppercase;
+}
+.zebra > ul > li { padding: 10px 14px; border-bottom: 2px solid var(--zebra); }
+.zebra > ul > li:last-child { border-bottom: 0; }
+.zebra > ul > li:nth-child(2n) { background: var(--zebra); }
+
+.empty { color: var(--text-muted); font-size: 14px; }
+
+.dot { display: inline-block; flex: none; width: 10px; height: 10px; border-radius: 50%; margin-top: 4px; }
+.dot.green { background: var(--ok); }
+.dot.yellow { background: var(--maybe); }
+.dot.red { background: var(--bad); }
 .dot.none { background: transparent; }
 .legend .dot { margin-top: 0; }
-.is-red { color: var(--red); font-weight: 600; }
+.is-red { color: var(--bad); font-weight: 600; }
 
-.count { color: var(--muted); font-weight: 400; }
-.empty { color: var(--muted); padding: 6px 0; }
-
-.cart .course {
-  display: flex; gap: 8px; align-items: flex-start;
-  padding: 8px 10px; margin-bottom: 6px;
-  background: var(--surface); border: 1px solid var(--border); border-radius: 8px;
-}
+/* Cart */
+.cart .course { display: flex; gap: 10px; align-items: flex-start; }
 .course-main { flex: 1; min-width: 0; }
-.course-line { display: flex; align-items: center; gap: 6px; }
+.course-line { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
 .course-line .dot { margin-top: 0; }
-.code { font-weight: 600; text-decoration: none; }
-.campus { font-size: 11px; font-weight: 600; color: var(--muted); border: 1px solid var(--border); border-radius: 4px; padding: 0 4px; }
-.title { color: var(--muted); overflow-wrap: anywhere; }
-.times { margin-top: 2px; }
-.note { color: var(--muted); font-size: 12px; font-style: italic; }
-.remove {
-  flex: none; width: 24px; height: 24px; border-radius: 6px;
-  border: 1px solid transparent; background: transparent; color: var(--muted);
-  font-size: 13px; cursor: pointer;
+.code { font-weight: 600; }
+.campus {
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: .05em;
+  text-transform: uppercase;
+  color: var(--text-muted);
 }
-.remove:hover { border-color: var(--border); color: var(--red); }
+.title { color: var(--black); overflow-wrap: anywhere; }
+.times { margin-top: 2px; font-size: 14px; color: var(--text-muted); }
+.times.is-red { color: var(--bad); }
+.note { margin-top: 2px; font-size: 13px; font-style: italic; color: var(--text-muted); }
+.remove {
+  flex: none;
+  padding: 4px 8px;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+  color: var(--black);
+  font: inherit;
+  font-size: 13px;
+  cursor: pointer;
+  appearance: none;
+}
+.remove:hover { color: var(--garnet); text-decoration: underline; }
 
-.week { display: grid; gap: 10px; }
-.day { padding: 8px 10px; border: 1px solid var(--border); border-radius: 8px; }
-.item { display: flex; gap: 8px; padding: 4px 0; }
-.item + .item { border-top: 1px dashed var(--border); }
-.class-time { font-weight: 600; }
-.leg-body { color: var(--text); }
-.leg-head { font-size: 12px; color: var(--muted); }
-.leg-sub { font-size: 12px; color: var(--muted); }
-.leg.red .leg-trip { color: var(--red); }
+/* Week */
+.week { display: grid; gap: 16px; }
+.item { display: flex; gap: 10px; }
+.class-time { font-weight: 600; font-size: 14px; }
+.class-time.is-red { color: var(--bad); }
+.leg-head {
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: .05em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+}
+.leg-trip { font-weight: 500; }
+.leg-sub { font-size: 13px; color: var(--text-muted); }
+.leg.red .leg-trip { color: var(--bad); }

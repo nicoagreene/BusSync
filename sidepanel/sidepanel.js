@@ -70,7 +70,7 @@
             noTimes ? el("div", { class: "note" }, "Not included in the bus plan.") : null,
             c.unparsedTimes?.length && !noTimes ? el("div", { class: "note" }, `Couldn't read: ${c.unparsedTimes.join("; ")}`) : null
           ),
-          el("button", { class: "remove", type: "button", title: `Remove ${c.code}`, "aria-label": `Remove ${c.code}`, onclick: () => removeCourse(c.id) }, "✕")
+          el("button", { class: "remove", type: "button", title: `Remove ${c.code}`, "aria-label": `Remove ${c.code}`, onclick: () => removeCourse(c.id) }, "Remove")
         )
       );
     }
@@ -126,10 +126,10 @@
     $week.replaceChildren();
     for (const d of Planner.WEEKDAYS) {
       const { items } = plan.days[d];
-      const list = el("ul", { class: "day-items" });
+      const list = el("ul", {});
       if (!items.length) list.append(el("li", { class: "empty" }, "No classes"));
       for (const item of items) list.append(item.type === "leg" ? renderLeg(item) : renderClass(item));
-      $week.append(el("div", { class: "day" }, el("h3", {}, P.DAY_NAMES[d]), list));
+      $week.append(el("div", { class: "zebra day" }, el("h3", { class: "zebra-head" }, P.DAY_NAMES[d]), list));
     }
   }
 

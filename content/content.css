@@ -1,18 +1,33 @@
+/* Matches the Course Guide's garnet submit buttons (1rem = 10px on that site). */
 .bussync-add {
   display: inline-block;
-  margin-top: 6px;
-  padding: 3px 10px;
-  font: 600 13px/1.4 system-ui, -apple-system, sans-serif;
-  color: #1d4ed8;
-  background: #fff;
-  border: 1px solid #1d4ed8;
-  border-radius: 999px;
-  cursor: pointer;
-}
-.bussync-add:hover {
-  background: #eff6ff;
-}
-.bussync-add.is-added {
+  margin-top: 1rem;
+  padding: .8rem 1.4rem;
+  border: 0;
+  border-radius: 0;
+  background-color: #b43135;
   color: #fff;
-  background: #1d4ed8;
+  font-family: Larsseit, helvetica, arial, sans-serif;
+  font-size: 1.4rem;
+  font-weight: 600;
+  line-height: 1.2;
+  cursor: pointer;
+  appearance: none;
+  transition: background-color .3s ease, color .3s ease;
+}
+.bussync-add:hover,
+.bussync-add:focus-visible {
+  background-color: #5a1012;
+}
+/* White + thin border so it stays visible on both white and gray zebra rows. */
+.bussync-add.is-added {
+  background-color: #fff;
+  color: #000;
+  box-shadow: inset 0 0 0 1px #000;
+}
+.bussync-add.is-added:hover,
+.bussync-add.is-added:focus-visible {
+  background-color: #fff;
+  color: #b43135;
+  box-shadow: inset 0 0 0 1px #b43135;
 }

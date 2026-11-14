@@ -9,7 +9,11 @@
 <body>
   <header class="top">
     <h1>BusSync</h1>
-    <label class="home">
+    <p>Tri-Co course cart &amp; bus planner</p>
+  </header>
+
+  <div class="controls">
+    <label class="field">
       <span>Home campus</span>
       <select id="home">
         <option value="">Select…</option>
@@ -18,11 +22,11 @@
         <option value="BMC">BMC</option>
       </select>
     </label>
-  </header>
-  <label class="semester" id="semester-wrap" hidden>
-    <span>Semester</span>
-    <select id="semester"></select>
-  </label>
+    <label class="field" id="semester-wrap" hidden>
+      <span>Semester</span>
+      <select id="semester"></select>
+    </label>
+  </div>
 
   <ul class="legend" aria-label="Legend">
     <li><span class="dot green"></span>Over 7 min to spare</li>
@@ -32,7 +36,10 @@
 
   <section>
     <h2>Cart <span id="cart-count" class="count"></span></h2>
-    <ul id="cart" class="cart"></ul>
+    <div class="zebra">
+      <span class="zebra-head">Course</span>
+      <ul id="cart" class="cart"></ul>
+    </div>
   </section>
 
   <section>
