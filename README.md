@@ -18,9 +18,11 @@ class to the stop and from the stop to your next class:
 
 | Spare time             | Meaning                   |
 | ---------------------- | ------------------------- |
-| over 7 min             | green: feasible           |
-| 3–7 min               | yellow: possibly feasible |
-| under 3 min, or no bus | red: not feasible         |
+| 10 min or more         | green: feasible           |
+| 5–10 min               | yellow: possibly feasible |
+| under 5 min, or no bus | red: not feasible         |
+
+Times over an hour are shown as hours and minutes (e.g. `1 hr 25 min`).
 
 Classes that overlap get a red marker and sit next to each other in the cart and the week view.
 Bryn Mawr ↔ Swarthmore may also be routed Blue Bus + Van through Haverford.
@@ -36,9 +38,7 @@ npm run schedules   # rewrites data/buses.json and prints trip counts per day
 npm test
 ```
 
-
-
-UI notes : distinguish reds better, full name on dropdown, configurable buffer times, make othe cart different from the schedule, convertes minus>60 to hours and minutes, emphasize time. dropdown on day? Change day header? For setting do > 10 good, <10 and >5 reasonable and >5 not good.
+UI notes : distinguish reds better, full name on dropdown, configurable buffer times, make othe cart different from the schedule, convertes minus>60 to hours and minutes, emphasize time. dropdown on day? Change day header? For setting do > 10 good, <10 and >5 reasonable and >5 not good. Add, manual event time place. 
 
 ## Layout
 

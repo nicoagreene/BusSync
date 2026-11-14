@@ -80,11 +80,18 @@
     return `${seg.route} ${fmt(seg.depart)} ${label(seg.from)} → ${fmt(seg.arrive)} ${label(seg.to)}`;
   }
 
+  // 45 -> "45 min", 60 -> "1 hr", 85 -> "1 hr 25 min"
+  function duration(min) {
+    if (min <= 60) return `${min} min`;
+    const h = Math.floor(min / 60), m = min % 60;
+    return m ? `${h} hr ${m} min` : `${h} hr`;
+  }
+
   function slackText(leg) {
     const o = leg.option;
     const parts = [];
-    if (leg.earliest != null) parts.push(`${o.depart - leg.earliest} min to reach the stop`);
-    if (leg.latest != null) parts.push(`${leg.latest - o.arrive} min to reach class`);
+    if (leg.earliest != null) parts.push(`${duration(o.depart - leg.earliest)} to reach the stop`);
+    if (leg.latest != null) parts.push(`${duration(leg.latest - o.arrive)} to reach class`);
     return parts.join(" · ");
   }
 
@@ -101,7 +108,7 @@
       if (n) {
         const late = leg.latest != null ? n.arrive - leg.latest : 0;
         lines.push(el("div", { class: "leg-sub" },
-          `Next: ${n.segments.map(segmentText).join(", then ")}` + (late > 0 ? ` (${late} min late)` : "")));
+          `Next: ${n.segments.map(segmentText).join(", then ")}` + (late > 0 ? ` (${duration(late)} late)` : "")));
       }
     }
     const heading = { out: `From ${label(leg.from)}`, home: `Back to ${label(leg.to)}`, between: null }[leg.kind];

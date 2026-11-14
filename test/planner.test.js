@@ -38,10 +38,10 @@ test("course conflicts are detected and grouped together in the cart", () => {
 });
 
 test("slack thresholds", () => {
-  assert.equal(Planner.statusForSlack(8), "green");
-  assert.equal(Planner.statusForSlack(7), "yellow");
-  assert.equal(Planner.statusForSlack(3), "yellow");
-  assert.equal(Planner.statusForSlack(2), "red");
+  assert.equal(Planner.statusForSlack(10), "green");
+  assert.equal(Planner.statusForSlack(9), "yellow");
+  assert.equal(Planner.statusForSlack(5), "yellow");
+  assert.equal(Planner.statusForSlack(4), "red");
 });
 
 test("Monday HC 10:00-10:20 then BMC 11:00: Blue Bus 10:50a (from HC) is not enough, 10:30a is", () => {
